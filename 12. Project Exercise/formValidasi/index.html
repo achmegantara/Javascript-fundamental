@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat form validasi dengan javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h2>FORM VALIDASI</h2>
+    </center>
+    <div class="login">
+        <form action="#" method="POST" onsubmit="validasi()">
+            <div>
+                <label for="nama">Nama lengkap :</label>
+                <input type="text" name="nama" id="nama">
+            </div>
+            <div>
+                <label for="email">Email : </label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label for="alamat">Alamat : </label>
+                <textarea name="alamat" id="alamat" cols="40" rows="5"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="daftar" id="tombol">
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
